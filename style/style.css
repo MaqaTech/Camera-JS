@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#camera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#camera #leather {
+  background-image: url(../img/3.avif);
+  width: 50%;
+  height: 50vh;
+  margin-top: 20%;
+  position: relative;
+  border-radius: 15px;
+  border-left: 34px solid #333333;
+}
+#camera #metal {
+  width: 50%;
+  height: 7vh;
+  position: absolute;
+  bottom: 60%;
+  right: 23.8%;
+  border-radius: 8px;
+  border-left: 35px solid rgb(197, 197, 197);
+  border-top: 20px solid #333333;
+}
+#camera #lens {
+  width: 17%;
+  position: absolute;
+  right: 39%;
+  top: 53%;
+}
+#camera #btn {
+  background-image: url(../img/Scratch_BG_Metal_Plate_04.png);
+  padding: 10px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  left: 32%;
+  top: 32%;
+  z-index: 2;
+}
+#camera #flash {
+  background-color: #f5eebf;
+  width: 15%;
+  position: absolute;
+  right: 40.7%;
+  top: 47%;
+  box-shadow: 0px 0px 40px 40px #f5eebf;
+  opacity: 0.9;
+  z-index: 10;
+  display: none;
+}
+#camera #btn2 {
+  border-radius: 50%;
+  background-image: url(../img/metallic-textured-background_53876-89540.avif);
+  padding: 20px;
+  z-index: 4;
+  position: absolute;
+  left: 35%;
+  top: 50%;
+}
+#camera #logo {
+  position: absolute;
+  left: 50%;
+  top: 33.5%;
+  width: 5%;
+  z-index: 5;
+}
+#camera #flashbox {
+  border: 10px solid rgb(197, 197, 197);
+  width: 17%;
+  height: 25px;
+  z-index: 3;
+  background-color: #4f4d4d;
+  position: absolute;
+  right: 39%;
+  top: 44%;
+}/*# sourceMappingURL=style.css.map */
